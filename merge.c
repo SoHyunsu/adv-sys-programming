@@ -22,8 +22,8 @@ typedef struct file_info{
 	int fp; // file point
 	int lp; // line point
 	int size;
-	char buf_in[2048];
-	char buf_out[200];
+	char buf_in[BUFFER_SIZE];
+	char buf_out[PART_BUFFER_SIZE];
 	int line;
 
 }File_info;
